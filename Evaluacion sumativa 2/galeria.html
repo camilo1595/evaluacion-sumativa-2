@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/estilo-galeria.css">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/4d1548871a.js" crossorigin="anonymous"></script>
+    <header class="caja1">
+        <h1>La Orca</h1>
+        <p>El mamifero mas letal de los mares</p>
+    </header>
+    <nav class="caja2">
+        <a href="index.html">Inicio</a>
+        <a href="detalles.html">Detalles</a>
+        <a href="galeria.html">Galeria de imagenes</a>
+        <a href="formulario.html">Formulario de contacto</a>
+    </nav>
+    <main class="contenedor">
+        <article class="fotos">
+            <h2>Galeria de imagenes</h2>
+            <span class="linea"></span>
+            <section class="galeria">
+                <a href="#imagen1">
+                    <img src="imagenes/galeria/1.jpg" alt="foto 1">
+                </a>
+                <a href="#imagen2">
+                    <img src="imagenes/galeria/2.jpg" alt="foto 2">
+                </a>
+                <a href="#imagen3">
+                    <img src="imagenes/galeria/3.jpg" alt="foto 3">
+                </a>
+                <a href="#imagen4">
+                    <img src="imagenes/galeria/4.jpg" alt="foto 4">
+                </a>
+                <a href="#imagen5">
+                    <img src="imagenes/galeria/5.jpg" alt="foto 5">
+                </a>
+                <a href="#imagen6">
+                    <img src="imagenes/galeria/6.jpg" alt="foto 6">
+                </a>
+            </section>
+            <article class="light-box" id="imagen1">
+                <a href="#imagen6" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/1.jpg" alt="">
+                <a href="#imagen2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="imagen2">
+                <a href="#imagen1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/2.jpg" alt="">
+                <a href="#imagen3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="imagen3">
+                <a href="#imagen2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/3.jpg" alt="">
+                <a href="#imagen4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="imagen4">
+                <a href="#imagen3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/4.jpg" alt="">
+                <a href="#imagen5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="imagen5">
+                <a href="#imagen4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/5.jpg" alt="">
+                <a href="#imagen6" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="imagen6">
+                <a href="#imagen5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/6.jpg" alt="">
+                <a href="#imagen1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+        </article>
+    </main>
+    <footer>
+        <p>Camilo Herrera Lavado &copy;2023</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+    background-color: #576CBC;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header{
+    background-color: #0B2447;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+nav{
+    background-color: #19376D;
+    overflow: hidden;
+    width: 102.6%;
+    left: 0;
+    right: 0;
+    
+}
+
+nav a{
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    transition: background-color .5s;
+
+}
+
+nav a:hover{
+    background-color: black;
+    color: #576CBC;
+    
+}
+footer{
+    background-color: #A5D7E8;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+main{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+main h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+hr{
+    color: black;
+}
+
+li{
+    list-style: none;
+
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    background: #05BFDB;
+    margin: auto;
+    padding: 20px;
+}
+
+.articulos{
+    padding: 15px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+
+}
+
+main li a{
+    color: black;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 5px;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+table .row{
+    display: flex;
+    flex-direction: row;
+}
+
+table .column{
+    display: flex;
+    flex-direction: column;
+}
